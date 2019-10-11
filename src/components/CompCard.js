@@ -18,8 +18,8 @@ export function ProductsItemComponent(prod) {
     });
 
     function handleClick() {
-        let activeIndex = !isSelect;
-        setIsSelect(activeIndex);
+        let active = !isSelect;
+        setIsSelect(active);
     }
 
     return (

@@ -4,7 +4,7 @@ import '../App.css';
 export const TimeLine = () => (
     <>
         <div className="timeLine">
-            <span id="model">Model</span> -------- <span id="version">Version</span> -------- <span id="color">Color</span> -------- <span id="options">Options</span> -------- <span id="resume">Resume</span>
+            <span className="spaceTimeLine" id="model">Model</span> -------- <span className="spaceTimeLine" id="version">Version</span> -------- <span className="spaceTimeLine" id="color">Color</span> -------- <span className="spaceTimeLine" id="options">Options</span> -------- <span className="spaceTimeLine" id="resume">Resume</span>
         </div>
     </>
 )
