@@ -1,0 +1,159 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Fusca",
+      "image": "fusca.jpg",
+      "price": 7999.0,
+      "description": "Linda tela Super Retina em dois tamanhos, incluindo a maior tela em um iPhone até hoje. Face ID ainda mais rápido. O chip mais inteligente e poderoso em um smartphone. Sistema de câmera dupla inovador com Controle de Profundidade. O iPhone XS é tudo o que você ama no iPhone. Levado ao extremo."
+    },
+    {
+      "id": 2,
+      "name": "Chevette",
+      "image": "chevette.jpg",
+      "price": 8600.0,
+      "description": "Agora o céu é o limite para capturar imagens aéreas impressionantes de forma profissional. Com o drone Phantom 4 Pro da DJI é possível tirar fotos com resolução de 20 MP e gravar vídeos 4K em 60 fps. Com estrutura formada por ligas de titânio e magnésio - que conferem leveza e resistência ao equipamento. - o drone tem autonomia de voo de até 30 minutos. Alcança velocidade de até 72 Km/h no modo esporte. Conta, ainda, com sensor com alcance de 30 metros, controle de longo alcance de 7 Km e detecção de obstáculos em 5 direções."
+    },
+    {
+      "id": 3,
+      "name": "Opala",
+      "image": "opala.jpg",
+      "price": 8600.0,
+      "description": "Resistente e totalmente à prova d'água, a câmera HERO7 Silver da GoPro está sempre pronta para entrar em ação em praticamente todas as situações. Faça vídeos 4K sem tremer e fotos vibrantes com WDR para ter imagens espetaculares de cada momento. Com o GPS, você controla a velocidade, elevação e distância percorrida*. Com uma tela de toque intuitiva, fica fácil acessar os comandos e capturar ótimas imagens. Além disso, suas fotos e vídeos vão direto para o app GoPro no iPhone ou iPad para você compartilhar na hora**."
+    },
+    {
+      "id": 4,
+      "name": "gol",
+      "image": "gol.jpg",
+      "price": 349.0,
+      "description": "Bateria 100% carregada em menos de 4 horas quando conectada por cabo USB a um computador ou em menos de 3 horas quando conectada a um adaptador de tomada. Compatível com redes Wi-Fi ou hotspots públicos ou privados nos padrões 802.11b, 802.11g ou 802.11n com protocolos de segurança WEP, WPA e WPA2 via autenticação com senha ou Wi-Fi Protected Setup (WPS)."
+    },
+    {
+      "id": 5,
+      "name": "Monza",
+      "image": "monza.jpg",
+      "price": 2999.0,
+      "description": "O Console Playstation 4 Slim 1TB Hits Bundle 5 é mais leve e mais fino, o sistema PlayStation 4 dispõe de um disco rígido de 1 TB para garantir tudo o que há de melhor em jogos, músicas e muito mais. E para potencializar ainda mais, o pacote PlayStation Hits oferece jogos incríveis que vão proporcionar entretenimento com jogos dinâmicos e conectados, gráficos e velocidade intensos, com personalização inteligente, recursos sociais integrados intensamente e inovadores recursos de segunda tela."
+    },
+    {
+      "id": 6,
+      "name": "Tempra",
+      "image": "tempra.jpg",
+      "price": 2500.0,
+      "description": "Seja o primeiro a experimentar o Xbox One X, projetado para os maiores fãs. No Xbox One X os jogos rodam muito melhor. Com 40% mais poder do que qualquer outro console, experimente os verdadeiros jogos 4K. Os jogos ficam com uma ótima resolução, funcionam sem problemas e carregam rapidamente, mesmo em uma tela de 1080p. O Xbox One X também funciona com todos os seus jogos e acessórios do Xbox One, bem como o Xbox Live, uma rede multiplayer avançada, que lhe oferece mais maneiras de jogar."
+    },
+    {
+      "id": 7,
+      "name": "Kadette",
+      "image": "kadette.png",
+      "price": 2500.0,
+      "description": "Seja o primeiro a experimentar o Xbox One X, projetado para os maiores fãs. No Xbox One X os jogos rodam muito melhor. Com 40% mais poder do que qualquer outro console, experimente os verdadeiros jogos 4K. Os jogos ficam com uma ótima resolução, funcionam sem problemas e carregam rapidamente, mesmo em uma tela de 1080p. O Xbox One X também funciona com todos os seus jogos e acessórios do Xbox One, bem como o Xbox Live, uma rede multiplayer avançada, que lhe oferece mais maneiras de jogar."
+    }
+  ],
+  "itemsVersion": [
+    {
+      "id": 8,
+      "name": "GTS 1.8",
+      "image": "motor_gts.jpeg",
+      "price": 8000.0,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac lacinia neque. Mauris sollicitudin."
+    },
+    {
+      "id": 9,
+      "name": "Turbo 2.4",
+      "image": "motor_turbo.jpeg",
+      "price": 18000.0,
+      "description": " scelerisque. Donec vel odio augue. Ut interdum nunc eget lacus accumsan porttitor. Vivamus tempus luctus lectus, vitae accumsan magn."
+    },
+    {
+      "id": 10,
+      "name": "GTI 2.0",
+      "image": "motor_gti.jpeg",
+      "price": 12000.0,
+      "description": " scelerisque. Donec vel odio augue. Ut interdum nunc eget lacus accumsan porttitor. Vivamus tempus luctus lectus, vitae accumsan magn."
+    },
+    {
+      "id": 11,
+      "name": "V8",
+      "image": "motor_v8.jpeg",
+      "price": 32000.0,
+      "description": " scelerisque. Donec vel odio augue. Ut interdum nunc eget lacus accumsan porttitor. Vivamus tempus luctus lectus, vitae accumsan magn."
+    }
+  ],
+  "itemsColor": [
+    {
+      "id": 12,
+      "name": "Preto",
+      "image": "preto.png",
+      "price": 2000.0
+    },
+    {
+      "id": 13,
+      "name": "Vermelho",
+      "image": "vermelho.png",
+      "price": 3000.0
+    },
+    {
+      "id": 14,
+      "name": "azul",
+      "image": "azul.png",
+      "price": 3000.0
+    },
+    {
+      "id": 15,
+      "name": "Amarelo",
+      "image": "amarelo.png",
+      "price": 3000.0
+    },
+    {
+      "id": 16,
+      "name": "Verde",
+      "image": "verde.png",
+      "price": 3000.0
+    },
+    {
+      "id": 17,
+      "name": "Laranja",
+      "image": "laranja.png",
+      "price": 3000.0
+    }
+  ],
+  "itemsOptions": [
+    {
+      "id": 18,
+      "name": "Teto solar",
+      "image": "tetoSolar.jpeg",
+      "price": 4000.0
+    },
+    {
+      "id": 19,
+      "name": "Som",
+      "image": "som.jpeg",
+      "price": 1000.0
+    },
+    {
+      "id": 20,
+      "name": "Roda de Liga",
+      "image": "rodaLiga.jpeg",
+      "price": 1000.0
+    },
+    {
+      "id": 21,
+      "name": "Farol de Milha",
+      "image": "farolDeMilha.jpeg",
+      "price": 1000.0
+    },
+    {
+      "id": 22,
+      "name": "Camera de ré",
+      "image": "cameraRe.jpeg",
+      "price": 1000.0
+    },
+    {
+      "id": 23,
+      "name": "Banco de couro",
+      "image": "bancoDeCouro.jpeg",
+      "price": 1000.0
+    }
+  ]
+}
