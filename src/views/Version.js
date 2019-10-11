@@ -3,7 +3,7 @@ import '../App.css';
 import { Products } from "../api/Products";
 import { Link } from "react-router-dom";
 
-const ProductsItemComponent = lazy(() => import("../components/Card"));
+const Card = lazy(() => import("../components/Card"));
 
 export function VersionPage() {
 
@@ -30,9 +30,10 @@ export function VersionPage() {
             <div className="App">
             <Link className="btn btn-secondary btn1" to="/"> back </Link> <Link className="btn btn-secondary btn1" to="/color"> next </Link>
                 <main className="App-header">
+                <h4>select a version</h4>
                     <div className="cardContainer">
                         {objProducts.map(list => (
-                            <ProductsItemComponent
+                            <Card
                                 id={list.id}
                                 image={list.image}
                                 name={list.name}

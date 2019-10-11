@@ -28,6 +28,7 @@ export function InitialPage() {
             <div className="App">
             <Link className="btn btn-secondary btn1" to="/"> back </Link> <Link className="btn btn-secondary btn1" to="/version"> next </Link>
                 <main className="App-header">
+                <h4>select a car</h4>
                     <div className="cardContainer">
                         {objProducts.map(list => (
                             <Card

@@ -1,6 +1,5 @@
 import React, { useState, useEffect, lazy } from 'react';
 import '../App.css';
-// import { ProductsItemComponent } from "../components/CompCard";
 import { Products } from "../api/Products";
 import { Link } from "react-router-dom";
 
@@ -31,6 +30,7 @@ export function ColorPage() {
             <div className="App">
             <Link className="btn btn-secondary btn1" to="/version"> back </Link> <Link className="btn btn-secondary btn1" to="/options"> next </Link>
                 <main className="App-header">
+                <h4>select a color</h4>
                     <div className="cardContainer">
                         {objProducts.map((list, index) => (
                             <ProductsItemComponent

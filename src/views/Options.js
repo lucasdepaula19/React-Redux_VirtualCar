@@ -1,10 +1,9 @@
 import React, { useState, useEffect, lazy } from 'react';
 import '../App.css';
-// import { ProductsItemComponent } from "../components/CompCard";
 import { Products } from "../api/Products";
 import { Link } from "react-router-dom";
 
-const ProductsItemComponent = lazy(() => import("../components/Card"));
+const Card = lazy(() => import("../components/Card"));
 
 export function OptionsPage() {
 
@@ -31,9 +30,10 @@ export function OptionsPage() {
             <div className="App">
             <Link className="btn btn-secondary btn1" to="/color"> back </Link> <Link className="btn btn-secondary btn1" to="/prod"> next </Link>
                 <main className="App-header">
+                <h4>select options</h4>
                     <div className="cardContainer">
                         {objProducts.map(list => (
-                            <ProductsItemComponent
+                            <Card
                                 id={list.id}
                                 image={list.image}
                                 name={list.name}
