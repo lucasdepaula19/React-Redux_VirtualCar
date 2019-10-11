@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default ({ product, onRemove }) => (
-  <div class="cart" key={product.id}>
+  <div class="resume" key={product.id}>
     <img
       width="100"
       src={require(`../assets/images/${product.image}`)}

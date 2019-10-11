@@ -4,7 +4,7 @@ const initialState = {
   products: []
 };
 
-export const cart = (state = initialState, action) => {
+export const resume = (state = initialState, action) => {
   switch (action.type) {
     case ADD_TO_CART:
       if (state.products.find(p => p.id === action.product.id)) {

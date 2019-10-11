@@ -13,7 +13,7 @@ export function InitialPage() {
 
     document.getElementById("model").style.color = "turquoise";
     document.getElementById("model").style.fontWeight = "bold";
-    document.getElementById("version").style.color = "white";
+    document.getElementById("version").style.color = "unset";
     document.getElementById("version").style.fontWeight = "normal";
 
         Products.getProducts().then(result => {

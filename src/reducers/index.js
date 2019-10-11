@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import { cart } from "./cart";
+import { resume } from "./resume";
 
 export const Reducers = combineReducers({
-  cart
+  resume
 });

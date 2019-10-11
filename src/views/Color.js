@@ -12,11 +12,11 @@ export function ColorPage() {
 
     useEffect(() => {
         
-        document.getElementById("version").style.color = "white";
+        document.getElementById("version").style.color = "unset";
         document.getElementById("version").style.fontWeight = "normal";
         document.getElementById("color").style.color = "turquoise";
         document.getElementById("color").style.fontWeight = "bold";
-        document.getElementById("options").style.color = "white";
+        document.getElementById("options").style.color = "unset";
         document.getElementById("options").style.fontWeight = "normal";
 
         Products.getProducts().then(result => {

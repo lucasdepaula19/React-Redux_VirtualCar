@@ -4,7 +4,6 @@ import "./App.css";
 import { Store } from "./store";
 import { ApplicationRoutes } from "./ApplicationRouters";
 import { BrowserRouter } from "react-router-dom";
-// import { CartCounter } from "./components/CartCounter";
 import { TimeLine } from "./components/TimeLine";
 
 function App() {

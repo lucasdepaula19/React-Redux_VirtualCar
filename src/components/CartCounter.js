@@ -9,6 +9,6 @@ const CartCounterComponent = props => (
   </>
 );
 
-const mapStateToProps = ( { cart } ) => ( { total: cart.products.length } );
+const mapStateToProps = ( { resume } ) => ( { total: resume.products.length } );
 
 export const CartCounter = connect(mapStateToProps)(CartCounterComponent);

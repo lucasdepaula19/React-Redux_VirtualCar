@@ -11,11 +11,11 @@ export function VersionPage() {
 
     useEffect(() => {
 
-        document.getElementById("model").style.color = "white";
+        document.getElementById("model").style.color = "unset";
         document.getElementById("model").style.fontWeight = "normal";
         document.getElementById("version").style.color = "turquoise";
         document.getElementById("version").style.fontWeight = "bold";
-        document.getElementById("color").style.color = "white";
+        document.getElementById("color").style.color = "unset";
         document.getElementById("color").style.fontWeight = "normal";
 
         Products.getProducts().then(result => {

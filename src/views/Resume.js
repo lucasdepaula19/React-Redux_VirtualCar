@@ -6,12 +6,12 @@ import { Link } from "react-router-dom";
 
 const ProductCartItem = lazy(() => import("../components/ProductCartItem"));
 
-const Cart = props => (
+const Resume = props => (
 
   useEffect(() => {
     document.getElementById("resume").style.color = "turquoise";
     document.getElementById("resume").style.fontWeight = "bold";
-    document.getElementById("options").style.color = "white";
+    document.getElementById("options").style.color = "unset";
     document.getElementById("options").style.fontWeight = "normal";
   }),
 
@@ -37,11 +37,11 @@ const Cart = props => (
 
 );
 
-const mapStateToProps = ({ cart }) => {
-  return { products: cart.products };
+const mapStateToProps = ({ resume }) => {
+  return { products: resume.products };
 };
 
 export default connect(
   mapStateToProps,
   { removeFromCart }
-)(Cart);
+)(Resume);

@@ -12,11 +12,11 @@ export function OptionsPage() {
 
     useEffect(() => {
 
-        document.getElementById("color").style.color = "white";
+        document.getElementById("color").style.color = "unset";
         document.getElementById("color").style.fontWeight = "normal";
         document.getElementById("options").style.color = "turquoise";
         document.getElementById("options").style.fontWeight = "bold";
-        document.getElementById("resume").style.color = "white";
+        document.getElementById("resume").style.color = "unset";
         document.getElementById("resume").style.fontWeight = "normal";
         
         Products.getProducts().then(result => {
