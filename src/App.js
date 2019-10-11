@@ -13,6 +13,7 @@ function App() {
         <Suspense fallback={<h1>Loading...</h1>}>
           <header className="App-header">
             <BrowserRouter>
+              <a href="#">Dark Mode</a>
               <h4>Automotive Dealership</h4>
               <TimeLine />
               <ApplicationRoutes />
