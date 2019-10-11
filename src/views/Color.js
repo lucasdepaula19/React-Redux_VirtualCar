@@ -3,7 +3,7 @@ import '../App.css';
 import { Products } from "../api/Products";
 import { Link } from "react-router-dom";
 
-const ProductsItemComponent = lazy(() => import("../components/Card"));
+const Card = lazy(() => import("../components/Card"));
 
 export function ColorPage() {
 
@@ -29,11 +29,12 @@ export function ColorPage() {
         <>
             <div className="App">
             <Link className="btn btn-secondary btn1" to="/version"> back </Link> <Link className="btn btn-secondary btn1" to="/options"> next </Link>
-                <main className="App-header">
-                <h4>select a color</h4>
+                <main>
+                <h4>Select a color</h4>
+                <div id="topico"></div>
                     <div className="cardContainer">
                         {objProducts.map((list, index) => (
-                            <ProductsItemComponent
+                            <Card
                                 id={list.id}
                                 image={list.image}
                                 name={list.name}

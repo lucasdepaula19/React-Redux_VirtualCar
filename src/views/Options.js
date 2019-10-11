@@ -29,8 +29,9 @@ export function OptionsPage() {
         <>
             <div className="App">
             <Link className="btn btn-secondary btn1" to="/color"> back </Link> <Link className="btn btn-secondary btn1" to="/prod"> next </Link>
-                <main className="App-header">
-                <h4>select options</h4>
+                <main>
+                <h4>Select options</h4>
+                <div id="topico"></div>
                     <div className="cardContainer">
                         {objProducts.map(list => (
                             <Card

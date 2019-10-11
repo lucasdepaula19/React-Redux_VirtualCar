@@ -1,13 +1,25 @@
 .whiteMode{
   background-color: white;
   color: black;
-  padding: 3em;
+  padding: 20px 3em 3em 3em;
+}
+
+.whiteMode h3{
+  color: black;
+}
+
+.whiteMode h4{
+  color: black;
+}
+
+.whiteMode #topico{
+  border-bottom: solid 1px gray;
 }
 
 .darkMode{
   background-color: #282c34;
   color: white;
-  padding: 3em;
+  padding: 20px 3em 3em 3em;
 }
 
 .App {
@@ -24,9 +36,8 @@
 .App-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
-  
 }
 
 .App-header h4{
@@ -51,14 +62,14 @@
 .cardContainer{
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .cardConfig {
   width: 14rem;
   text-align: left;
   color: black;
-  margin: 1em;
+  margin: 1em 1em 1em 0;
   cursor: pointer;
 }
 
@@ -166,4 +177,18 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+h3{
+  color: turquoise;
+}
+
+h4{
+  padding-top: 1em;
+  text-align: left;
+  color: turquoise;
+}
+
+#topico {
+  border-bottom: solid 1px turquoise;
 }

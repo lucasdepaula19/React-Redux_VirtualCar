@@ -29,8 +29,9 @@ export function VersionPage() {
         <>
             <div className="App">
             <Link className="btn btn-secondary btn1" to="/"> back </Link> <Link className="btn btn-secondary btn1" to="/color"> next </Link>
-                <main className="App-header">
-                <h4>select a version</h4>
+                <main>
+                <h4>Select a version</h4>
+                <div id="topico"></div>
                     <div className="cardContainer">
                         {objProducts.map(list => (
                             <Card
