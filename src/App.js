@@ -11,7 +11,7 @@ function App() {
     <Provider store={Store}>
       <div className="App">
         <Suspense fallback={<h1>Loading...</h1>}>
-          <header className="App-header">
+          <header className="App-header darkMode">
             <BrowserRouter>
               <a href="#">Dark Mode</a>
               <h4>Automotive Dealership</h4>
