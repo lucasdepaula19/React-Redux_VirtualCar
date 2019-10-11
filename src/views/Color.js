@@ -4,7 +4,7 @@ import '../App.css';
 import { Products } from "../api/Products";
 import { Link } from "react-router-dom";
 
-const ProductsItemComponent = lazy(() => import("../components/CompCard"));
+const ProductsItemComponent = lazy(() => import("../components/Card"));
 
 export function ColorPage() {
 

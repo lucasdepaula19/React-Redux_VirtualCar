@@ -3,7 +3,7 @@ import '../App.css';
 import { Products } from "../api/Products";
 import { Link } from "react-router-dom";
 
-const ProductsItemComponent = lazy(() => import("../components/CompCard"));
+const Card = lazy(() => import("../components/Card"));
 
 export function InitialPage() {
 
@@ -30,7 +30,7 @@ export function InitialPage() {
                 <main className="App-header">
                     <div className="cardContainer">
                         {objProducts.map(list => (
-                            <ProductsItemComponent
+                            <Card
                                 id={list.id}
                                 image={list.image}
                                 name={list.name}

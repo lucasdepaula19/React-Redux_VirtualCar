@@ -4,7 +4,7 @@ import { Products } from "../api/Products";
 import { addToCart } from "../actions";
 import { connect } from 'react-redux';
 
-export function ProductsItemComponent(prod) {
+export function Card(prod) {
 
     const [obj, setObj] = useState({});
     const [isSelect, setIsSelect] = useState(false);
@@ -38,4 +38,4 @@ export function ProductsItemComponent(prod) {
 export default connect(
     undefined,
     { addToCart }
-)(ProductsItemComponent)
+)(Card)
