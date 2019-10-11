@@ -1,4 +1,4 @@
-import React, { lazy } from "react";
+import React from "react";
 import { Route } from "react-router-dom";
 import ResumePage from "./views/Resume";
 import { InitialPage } from "./views/ProductList";
