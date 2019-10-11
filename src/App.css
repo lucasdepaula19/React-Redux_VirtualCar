@@ -55,6 +55,7 @@
   text-align: left;
   color: black;
   margin: 1em;
+  cursor: pointer;
 }
 
 img{
@@ -93,4 +94,9 @@ strong{
 
 span{
   padding: 2em;
+}
+
+.backColor{
+  border-width: 10px;
+  border-color: rgb(210, 238, 238);
 }

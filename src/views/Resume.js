@@ -33,8 +33,6 @@ const Resume = props => (
       </p>
     </main>
   </div>
-
-
 );
 
 const mapStateToProps = ({ resume }) => {

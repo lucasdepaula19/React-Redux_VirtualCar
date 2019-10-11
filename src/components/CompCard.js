@@ -7,6 +7,7 @@ import { connect } from 'react-redux';
 export function ProductsItemComponent(prod) {
 
     const [obj, setObj] = useState({});
+    const [isSelect, setIsSelect] = useState(false);
 
     useEffect(() => {
         Products.getProductById(prod.id, prod.route).then(result => {
@@ -16,15 +17,18 @@ export function ProductsItemComponent(prod) {
         })
     });
 
+    function handleClick() {
+        let activeIndex = !isSelect;
+        setIsSelect(activeIndex);
+    }
+
     return (
         <>
-            <div className="card cardConfig" id="cardId">
+            <div className={`card cardConfig ${isSelect ? 'backColor' : ''}`} onClick={() => { prod.addToCart(obj); handleClick() }}>
                 <img src={require(`../assets/images/${prod.image}`)} className="card-img-top" alt="" />
                 <div className="card-body">
                     <h5 className="card-title">{prod.name}</h5>
                     <p className="card-text">Price: {prod.price}</p>
-                    <button className="btn btn-primary" onClick={() => prod.addToCart(obj) }>Select</button>
-                    {/* <input type="radio" id="tes011" name="ddidi" value="erere"/> */}
                 </div>
             </div>
         </>

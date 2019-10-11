@@ -32,13 +32,14 @@ export function ColorPage() {
             <Link className="btn btn-secondary btn1" to="/version"> back </Link> <Link className="btn btn-secondary btn1" to="/options"> next </Link>
                 <main className="App-header">
                     <div className="cardContainer">
-                        {objProducts.map(list => (
+                        {objProducts.map((list, index) => (
                             <ProductsItemComponent
                                 id={list.id}
                                 image={list.image}
                                 name={list.name}
                                 price={list.price}
                                 route='itemsColor'
+                                //index={index}
                             />
                         ))}
                     </div>
