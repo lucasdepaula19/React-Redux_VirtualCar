@@ -15,23 +15,47 @@ const Resume = props => (
     document.getElementById("options").style.fontWeight = "normal";
   }),
 
-  <div className="App">
+  <div>
     <Link className="btn btn-secondary btn1" to="/options"> back </Link> <Link className="btn btn-secondary btn1" to="/prod"> Buy Now </Link>
-    <main className="App-header">
-    <h4>Resume</h4>
-    <div id="topico"></div>
-      <div class="cardContainer">
+    <main>
+      <h4>Resume</h4>
+      <div className="cardContainer">
         <Suspense fallback={<LoadingProduct />}>
-          {props.products.map(product => (
-            <ProductCartItem key={product.id} product={product} onRemove={props.removeFromCart} />
-          ))}
+          <table className="table" id="table">
+            <thead>
+              <tr>
+                <th>Image</th>
+                <th>Product</th>
+                <th></th>
+                <th>Price</th>
+                <th>Remove</th>
+              </tr>
+            </thead>
+            <tbody>
+              {props.products.map(product => (
+                <ProductCartItem key={product.id} product={product} onRemove={props.removeFromCart} />
+              ))}
+              <tr>
+                <td>
+                  <b> Total to pay:</b>
+                </td>
+                <td></td>
+                <td></td>
+                <td>
+                  R$
+                  {props.products
+                    .reduce((acc, current) => acc + current.price, 0)
+                    .toFixed(2)}
+                </td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+
         </Suspense>
       </div>
       <p>
-        <b> total:</b> R$
-      {props.products
-          .reduce((acc, current) => acc + current.price, 0)
-          .toFixed(2)}
+
       </p>
     </main>
   </div>

@@ -5,7 +5,7 @@ import '../App.css';
 
 const CartCounterComponent = props => (
   <>
-    <Link class="colorWhite" to="/prod"> View cart ({props.total})</Link>
+    <Link className="colorWhite" to="/prod"> View cart ({props.total})</Link>
   </>
 );
 

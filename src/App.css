@@ -22,6 +22,10 @@
   padding: 20px 3em 3em 3em;
 }
 
+.darkMode #table{
+  color: white;
+}
+
 .App {
   text-align: center;
   height: 100vmin;
@@ -76,6 +80,11 @@
 img{
   height: 10em;
   max-width: 14em;
+}
+
+#imgResume{
+  max-width: 5em;
+  max-height: 5em;
 }
 
 .btn1{

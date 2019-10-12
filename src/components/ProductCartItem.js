@@ -1,15 +1,25 @@
 import React from 'react';
 
 export default ({ product, onRemove }) => (
-  <div class="resume" key={product.id}>
-    <img
-      width="100"
-      src={require(`../assets/images/${product.image}`)}
-      alt=""
-    />
-    <h4>{product.name}</h4>
-    <p>{product.price}</p>
 
-    <button onClick={() => onRemove(product)}>Remove</button>
-  </div>
+  <tr key={product.id}>
+    <td>
+      <img id="imgResume"
+        src={require(`../assets/images/${product.image}`)}
+        alt=""
+      />
+    </td>
+    <td>
+      <h6>{product.name}</h6>
+    </td>
+    <td>
+      -----------------------------------------------------------------------------------------------
+      </td>
+    <td>
+      <p>R$ {product.price},00</p>
+    </td>
+    <td>
+      <button onClick={() => onRemove(product)}>Remove</button>
+    </td>
+  </tr>
 );
