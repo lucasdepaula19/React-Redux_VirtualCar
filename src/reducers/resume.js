@@ -1,7 +1,10 @@
-import { ADD_TO_CART, REMOVE_FROM_CART } from "../actions";
+import { ADD_TO_CART, ADD_VERSION, REMOVE_FROM_CART } from "../actions";
 
 const initialState = {
-  products: []
+  products: [],
+  version: '',
+  color: '',
+  optional: []
 };
 
 export const resume = (state = initialState, action) => {
@@ -15,6 +18,13 @@ export const resume = (state = initialState, action) => {
         ...state,
         products: state.products.concat(action.product)
       };
+
+      case ADD_VERSION:       
+      return {
+          ...state, 
+          version: [action.version] 
+      }
+
     case REMOVE_FROM_CART:
       if (state.products.find(p => p.id === action.product.id)) {
         return {
