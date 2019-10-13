@@ -15,7 +15,7 @@ const Resume = props => (
     document.getElementById("options").style.fontWeight = "normal";
   }),
 
-  <div>
+  <div className="App">
     <Link className="btn btn-secondary btn1" to="/options"> back </Link> <Link className="btn btn-secondary btn1" to="/prod"> Buy Now </Link>
     <main>
       <h4>Resume</h4>
